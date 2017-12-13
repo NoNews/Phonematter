@@ -1,4 +1,4 @@
-#Phonematter
+# Phonematter
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Phonematter-green.svg?style=true)](https://android-arsenal.com/details/1/3160)
 
@@ -8,7 +8,7 @@ Original library: https://github.com/rmaddy/RMPhoneFormat
 
 ![alt tag](https://i.imgur.com/4nA9Eow.gif)
 
-##Dependency
+## Dependency
 
     repositories {
         maven { url "https://dl.bintray.com/terrakok/terramaven" }
@@ -19,10 +19,10 @@ Original library: https://github.com/rmaddy/RMPhoneFormat
     }
 
 
-##Usage
+## Usage
 
 In its simplest form you do the following:
-
+    
     PhoneFormat phoneFormat = new PhoneFormat(getContext());
     // Call any number of times
     String numberString = "..."; //the phone number to format
@@ -57,11 +57,11 @@ PhoneFormat can also be used to lookup a country's calling code:
     String callingCode = phoneFormat.callingCodeForCountryCode("AU"); // Australia - returns 61
     String defaultCallingCode = phoneFormat.defaultCallingCode(); // based on current Region Format (locale)
 
-##About Me
+## About Me
 
 Hi! I'm terrakok. I got this code from official Telegram android application (https://github.com/DrKLO/Telegram) and wrap it as small library.
 
-##License
+## License
     Copyright (c) 2012, Rick Maddy
     All rights reserved.
 
